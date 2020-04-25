@@ -32,8 +32,12 @@ var resultado;
 console.log ("variable antes de parse", a);
 console.log ("variable antes de parse", b);
 
-a= parseInt(a);
-b= parseInt(b);
+if (a ==""){
+     a=0;
+    }else{a= parseInt(a);}
+    if (b ==""){
+     b=0;
+    }else{b= parseInt(b);}
 
 console.log ("variable despues de parse", a);
 console.log ("variable despues de parse", b);
