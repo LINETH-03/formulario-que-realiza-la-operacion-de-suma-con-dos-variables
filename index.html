@@ -19,8 +19,24 @@
     <input type="number" id="b" name="b"><br><br><br>
 
     <button>Sumar</button>
-    
+
     <label for="resulado">El resultado es</label>
     <input type="number" id="resultado" name="resultado"><br>
+
+    <script>
+        {
+
+var a=document.getElementById("a").value;
+var b=document.getElementById("b").value;
+var resultado;
+
+a= parseInt(a);
+b= parseInt(b);
+
+resultado=a-b;
+document.getElementById("resultado").value=resultado
+}
+
+    </script>
 </body>
 </html>
